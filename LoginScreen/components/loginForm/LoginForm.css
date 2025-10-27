@@ -1,0 +1,28 @@
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+    font-family: Arial, sans-serif;
+    border: black 1px solid;
+    height: 340px;
+    width: 300px;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 40px;
+}
+.LoginForm button {
+    background: linear-gradient(#ffdc3b, #ffab00);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.LoginForm h2 {
+    padding: 10px;
+    color: #333;
+}
